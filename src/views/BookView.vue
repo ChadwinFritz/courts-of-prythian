@@ -93,7 +93,7 @@ main { max-width: 60rem; margin: 0 auto; padding: 2.5rem 1.5rem 5rem; }
 .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.3rem; margin-top: 1.8rem; }
 .card {
   background: rgba(255,255,255,.03); border: 1px solid rgba(180,142,240,.2);
-  padding: 1.4rem; cursor: default; box-shadow: var(--shadow-card);
+  padding: 1.4rem; cursor: pointer; box-shadow: var(--shadow-card);
   transition: transform var(--dur-mid) ease, box-shadow var(--dur-mid) ease;
 }
 .card:hover { transform: translateY(-4px); box-shadow: var(--shadow-hover); }
