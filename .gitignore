@@ -10,6 +10,8 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+dist-offline
+Courts-of-Prythian-Gift.zip
 *.local
 
 # Editor directories and files
