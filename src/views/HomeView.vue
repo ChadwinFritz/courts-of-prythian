@@ -56,7 +56,7 @@ import { useGsap } from '../composables/useGsap'
 import { courts } from '../data/courts'
 
 const badges = useBadgesStore()
-const { stagger } = useGsap()
+const { stagger, fadeUp } = useGsap()
 
 const SIGILS = { 1: '✿', 2: '✦', 3: '⚔', 4: '❄', 5: '✵' }
 
@@ -97,7 +97,10 @@ function buildMood() {
 
 const mood = ref(buildMood())
 
-onMounted(() => stagger('.door', { delay: 0.2 }))
+onMounted(() => {
+  fadeUp('.hero h1, .hero .lead', { delay: 0, stagger: 0.08 })
+  stagger('.door', { delay: 0.3 })
+})
 </script>
 
 <style scoped>

@@ -47,7 +47,7 @@ import { books } from '../data/books'
 const route  = useRoute()
 const badges = useBadgesStore()
 const { say } = useToast()
-const { stagger } = useGsap()
+const { stagger, fadeUp } = useGsap()
 
 const id      = computed(() => Number(route.params.id))
 const nextId  = computed(() => id.value < 5 ? id.value + 1 : null)
@@ -79,6 +79,7 @@ function onConstellationClick() {
 }
 
 onMounted(() => {
+  fadeUp('.hero h1, .hero .lead', { delay: 0, stagger: 0.08 })
   stagger('.card', { delay: 0.3 })
   // Attach constellation click handler after mount
   const con = document.querySelector('.constellation-web')

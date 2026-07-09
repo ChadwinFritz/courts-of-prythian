@@ -111,8 +111,12 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 import HeroSection from '../components/HeroSection.vue'
+import { useGsap } from '../composables/useGsap'
+
+const { stagger } = useGsap()
+onMounted(() => stagger('.region', { delay: 0.1 }))
 
 const COURTS = [
   {

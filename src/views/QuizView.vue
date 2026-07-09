@@ -75,6 +75,7 @@
 import { ref, shallowRef, computed, onMounted } from 'vue'
 import HeroSection from '../components/HeroSection.vue'
 import { rounds, verdicts } from '../data/quiz'
+import { useGsap } from '../composables/useGsap'
 
 const roundIdx    = ref(0)
 const questionIdx = ref(0)
@@ -121,7 +122,11 @@ const verdict = computed(() => {
     .find(v => score.value >= v.min)
 })
 
-onMounted(() => reshuffleOptions())
+onMounted(() => {
+  reshuffleOptions()
+  const { fadeUp } = useGsap()
+  fadeUp('.q-text, .options', { delay: 0.1, stagger: 0.1 })
+})
 </script>
 
 <style scoped>

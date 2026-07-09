@@ -40,10 +40,11 @@ import HeroSection from '../components/HeroSection.vue'
 import { characters } from '../data/characters'
 import { useGsap } from '../composables/useGsap'
 
-const { stagger } = useGsap()
+const { stagger, fadeUp } = useGsap()
 
 onMounted(() => {
-  stagger('.journey', { delay: 0.2 })
+  fadeUp('.hero h1, .hero .lead', { delay: 0, stagger: 0.08 })
+  stagger('.journey', { delay: 0.25 })
 })
 </script>
 

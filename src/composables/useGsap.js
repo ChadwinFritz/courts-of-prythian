@@ -53,3 +53,23 @@ export function useGsap() {
 
   return { fadeUp, stagger, burst, reduced }
 }
+
+/** Reveal elements as they scroll into view (IntersectionObserver, no extra package) */
+export function revealOnScroll(selector, opts = {}) {
+  if (reduced) return
+  if (typeof window === 'undefined') return
+  const els = document.querySelectorAll(selector)
+  if (!els.length) return
+  const io = new IntersectionObserver((entries, obs) => {
+    entries.forEach(e => {
+      if (!e.isIntersecting) return
+      const { fadeUp: _fadeUp } = useGsap()
+      _fadeUp([e.target], opts)
+      obs.unobserve(e.target)
+    })
+  }, { threshold: 0.12 })
+  els.forEach(el => {
+    Object.assign(el.style, { opacity: '0' })
+    io.observe(el)
+  })
+}

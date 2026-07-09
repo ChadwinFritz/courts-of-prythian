@@ -45,9 +45,13 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import HeroSection from '../components/HeroSection.vue'
 import { questions, courtResults } from '../data/courtQuiz'
+import { useGsap } from '../composables/useGsap'
+
+const { fadeUp } = useGsap()
+onMounted(() => fadeUp('.q-text, .opts', { delay: 0.1, stagger: 0.1 }))
 
 const answers  = ref([])
 const finished = ref(false)

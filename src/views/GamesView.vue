@@ -121,6 +121,9 @@
 import { ref, computed, onMounted } from 'vue'
 import HeroSection from '../components/HeroSection.vue'
 import { sigils, characterClues, wouldYouRather, surielsRiddles } from '../data/games'
+import { useGsap } from '../composables/useGsap'
+
+const { stagger } = useGsap()
 
 // ── Game I: Memory Match ─────────────────────────────────────────────────────
 
@@ -159,7 +162,10 @@ function flipCard(idx) {
   }
 }
 
-onMounted(() => initMatch())
+onMounted(() => {
+  initMatch()
+  stagger('.game-section', { delay: 0.1 })
+})
 
 // ── Game II: Guess the Character ─────────────────────────────────────────────
 

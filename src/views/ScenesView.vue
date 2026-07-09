@@ -25,7 +25,11 @@
 
 <script setup>
 // Web Audio soundscape deferred — too complex for this implementation
-import { defineComponent } from 'vue'
+import { defineComponent, onMounted } from 'vue'
+import { useGsap } from '../composables/useGsap'
+
+const { stagger } = useGsap()
+onMounted(() => stagger('.scene', { delay: 0.1 }))
 import HeroSection from '../components/HeroSection.vue'
 import ImageSlot from '../components/ImageSlot.vue'
 import { scenes } from '../data/scenes'

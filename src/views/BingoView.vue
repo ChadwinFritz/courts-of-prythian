@@ -30,14 +30,18 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { computed, onMounted } from 'vue'
 import HeroSection from '../components/HeroSection.vue'
 import { useBingoStore } from '../stores/bingo'
 import { squares } from '../data/bingo'
 import { useToast } from '../composables/useToast'
+import { useGsap } from '../composables/useGsap'
 
 const bingo = useBingoStore()
 const { say } = useToast()
+const { stagger } = useGsap()
+
+onMounted(() => stagger('.square', { delay: 0.1 }))
 
 // Build grid: 25 slots, center (index 12) is FREE
 // Grid positions 0–11  → squares[0]–squares[11]

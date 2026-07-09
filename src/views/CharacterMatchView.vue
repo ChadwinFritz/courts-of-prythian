@@ -44,8 +44,12 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import HeroSection from '../components/HeroSection.vue'
+import { useGsap } from '../composables/useGsap'
+
+const { fadeUp } = useGsap()
+onMounted(() => fadeUp('.start-panel', {}))
 
 const QS = [
   {

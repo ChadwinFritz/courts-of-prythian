@@ -2,7 +2,11 @@
 <template>
   <AppNav />
   <ProgressBar />
-  <RouterView />
+  <RouterView v-slot="{ Component }">
+    <Transition name="courtfade" mode="out-in">
+      <component :is="Component" />
+    </Transition>
+  </RouterView>
   <Toast />
 </template>
 
@@ -26,3 +30,14 @@ onMounted(() => {
 
 onUnmounted(() => window.removeEventListener('keydown', onKeydown))
 </script>
+
+<style>
+@media (prefers-reduced-motion: no-preference) {
+  .courtfade-enter-active,
+  .courtfade-leave-active {
+    transition: opacity var(--dur-slow, 400ms) var(--ease-out, cubic-bezier(0.22, 0.68, 0, 1.18));
+  }
+  .courtfade-enter-from,
+  .courtfade-leave-to { opacity: 0; }
+}
+</style>

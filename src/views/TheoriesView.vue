@@ -102,11 +102,16 @@
 </template>
 
 <script setup>
+import { onMounted } from 'vue'
 import HeroSection from '../components/HeroSection.vue'
 import { usePollsStore } from '../stores/polls'
 import { foreshadowing, theories, folklore, debates, polls } from '../data/theories'
+import { useGsap } from '../composables/useGsap'
 
 const pollStore = usePollsStore()
+const { stagger } = useGsap()
+
+onMounted(() => stagger('.theory-card, .fore-card', { delay: 0.15 }))
 
 function getPoll(theoryId) {
   return polls.find(p => p.id === theoryId) || null

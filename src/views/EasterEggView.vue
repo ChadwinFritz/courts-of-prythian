@@ -38,10 +38,15 @@
 </template>
 
 <script setup>
+import { onMounted } from 'vue'
 import HeroSection from '../components/HeroSection.vue'
 import { useEggsStore } from '../stores/eggs'
+import { useGsap } from '../composables/useGsap'
 
 const eggs = useEggsStore()
+const { stagger } = useGsap()
+
+onMounted(() => stagger('.egg-item', { delay: 0.1 }))
 
 const EGGS = [
   { word: 'rhysand',  hint: 'The most feared name in Prythian — and her favorite.' },
