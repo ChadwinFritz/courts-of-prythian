@@ -1,7 +1,8 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
+<!-- src/App.vue -->
 <template>
-  <HelloWorld />
+  <RouterView />
 </template>
+
+<script setup>
+import { RouterView } from 'vue-router'
+</script>
