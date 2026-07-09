@@ -6,6 +6,15 @@
   />
 
   <main>
+    <div class="illustrated-map">
+      <p class="map-label">Illuminated Chart · All Seven Courts</p>
+      <img
+        :src="`${base}images/scene-prythian-map.png`"
+        alt="Illustrated map of Prythian showing all seven courts"
+        class="map-illustration"
+      />
+    </div>
+
     <div class="map-layout">
       <div class="map-wrap">
         <svg
@@ -115,6 +124,8 @@ import { ref, onMounted } from 'vue'
 import HeroSection from '../components/HeroSection.vue'
 import { useGsap } from '../composables/useGsap'
 
+const base = import.meta.env.BASE_URL
+
 const { stagger } = useGsap()
 onMounted(() => stagger('.region', { delay: 0.1 }))
 
@@ -214,6 +225,29 @@ main {
   max-width: 72rem;
   margin: 0 auto;
   padding: 2rem 1.5rem 5rem;
+}
+
+.illustrated-map {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.map-label {
+  font-family: var(--font-display);
+  font-size: 0.6rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--burnished);
+  margin-bottom: 1rem;
+}
+
+.map-illustration {
+  max-width: 680px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid rgba(180, 142, 240, 0.2);
+  box-shadow: var(--shadow-card);
 }
 
 .map-layout {
