@@ -1,0 +1,359 @@
+// src/data/books.js
+export const books = {
+  1: {
+    summary: `Feyre Archeron is nineteen, half-starved, and the only thing keeping her family alive through a brutal winter. When she kills an enormous wolf in the forest, a beast crashes through her door demanding a life in payment — hers. She is taken over the wall into Prythian, the land of the Fae, to live out her days at the Spring Court of the High Lord Tamlin.
+
+Spring is beautiful and wrong. Every faerie wears a masquerade mask fused to their face; the manor is nearly empty; a blight is whispered about in corners. As Feyre's hatred of the Fae slowly thaws into something far more dangerous, she begins to see what the masks hide — and how much Tamlin and his emissary Lucien are not telling her.
+
+The truth has a name: Amarantha, the self-styled queen who rules from a court carved beneath a mountain, who cursed Tamlin and holds all of Prythian in her fist. When Spring falls at last, Feyre goes Under the Mountain after the people she loves. There she faces three trials and one impossible riddle — and pays a price that ends her mortal life and begins another. She enters the mountain human. She leaves it High Fae, remade by the seven High Lords, with a new darkness stitched into her heart and a tattooed bargain on her arm binding her to the most feared High Lord of them all.`,
+    characters: [
+      {
+        name: 'Feyre Archeron',
+        role: 'The Huntress',
+        description: `The youngest Archeron sister, who took up a bow at fourteen to feed a family that never asked how. Illiterate, stubborn, and quietly artistic, she sees the world in color and paint. Her arc: from prisoner of the Spring Court to the woman who walks into Amarantha's mountain for love — and dies, and is remade High Fae.`,
+      },
+      {
+        name: 'Tamlin',
+        role: 'High Lord of Spring',
+        description: `A warrior-born High Lord cursed to wear a mask and hunt for the one human girl who might break Amarantha's spell. Gruff, protective, and gentler than his claws suggest — he plays the fiddle, and he falls first. His curse hinges on words he cannot say: that a girl with hatred in her heart must love him truly, before time runs out.`,
+      },
+      {
+        name: 'Lucien Vanserra',
+        role: 'Emissary of Spring',
+        description: `Sixth-born son of the High Lord of Autumn, exiled after tragedy and sharp-tongued about it. His metal eye — a gift after Amarantha took his real one — sees more than most. He needles Feyre relentlessly, then risks everything to help her. The friendship neither of them admits to becomes one of the series' quiet constants.`,
+      },
+      {
+        name: 'Rhysand',
+        role: 'High Lord of the Night Court',
+        description: `Beautiful, violet-eyed, and lethal — Amarantha's whore, they whisper, her right hand for forty-nine years. He appears at Calanmai like a shadow given a smirk, and again Under the Mountain, where he keeps saving Feyre's life in ways that look like cruelty. Watch him closely. Everything he does in this book — the bargain, the paint, the week each month — reads entirely differently the second time through.`,
+      },
+      {
+        name: 'Amarantha',
+        role: 'The Usurper Queen',
+        description: `A general of Hybern who seduced and stole the powers of Prythian's High Lords, then built her throne beneath a mountain. She keeps courts as trophies and hearts in jars. Her hatred of humans is ancient and personal. She gives Feyre three trials and a riddle, certain no mortal heart could ever solve it. She is wrong — but the answer costs Feyre everything.`,
+      },
+      {
+        name: 'Nesta Archeron',
+        role: 'The Eldest Sister',
+        description: `Proud, cold, and furious at the world — yet the only human who fought the glamour on her memory, who tried to cross the wall alone to bring Feyre home. Her love is a blade turned inward.`,
+      },
+      {
+        name: 'Elain Archeron',
+        role: 'The Middle Sister',
+        description: `Sweet-natured and soft-hearted, tending flowers in frozen ground. She dreams of a kind marriage and a quiet life — a dream the later books will take apart petal by petal.`,
+      },
+      {
+        name: 'Alis',
+        role: 'The Attendant',
+        description: `Feyre's shrewd faerie maid at the Spring Court, serving to protect her two orphaned nephews. It is Alis who finally tells Feyre the truth of the curse — and Alis who tells her how to reach the mountain.`,
+      },
+      {
+        name: 'The Suriel',
+        role: 'The Ancient One',
+        description: `A skeletal, cloak-draped creature of the woods that speaks truth to whoever traps it. Feyre snares it with clever bait, and its advice echoes through the whole series: stay with the High Lord. That is all you can do.`,
+      },
+      {
+        name: 'Andras',
+        role: 'The Wolf',
+        description: `The faerie whose death sets everything in motion. Sent across the wall by Tamlin as a last, desperate gamble on the curse — knowing what a huntress with hate in her heart might do to a wolf.`,
+      },
+    ],
+  },
+  2: {
+    summary: `Three months after the mountain, Feyre is wasting away at the Spring Court — haunted by what she did to win, vomiting up nightmares, shrinking inside a life of wedding planning and locked doors. Tamlin, terrified of losing her again, holds on so tightly he begins to crush her. On their wedding day, silently begging anyone to save her, someone answers: Rhysand appears to call in his bargain.
+
+A week each month at the Night Court becomes something no one expected. Rhysand does not cage her — he teaches her to read, to shield her mind, to wield the powers seven High Lords unknowingly gave her. He shows her his great secret: Velaris, the City of Starlight, hidden for five thousand years, and his true court — the Inner Circle, a family of dreamers who fight like family and love harder than they fight.
+
+Meanwhile the King of Hybern stirs, hunting the two halves of the Book of Breathings and wielding the Cauldron — the vessel that made the world — to shatter the wall and reclaim the human lands. The Night Court races to stop him, and along the way Feyre learns the word that reframes the entire story: mate. What Rhysand knew Under the Mountain and never used to claim her. What she chooses, freely, in a cabin in the mountains.
+
+It ends in catastrophe: a trap in Hybern, Nesta and Elain forced into the Cauldron and remade Fae against their will, Tamlin's devastating alliance revealed — and Feyre, the newly sworn High Lady of the Night Court, playing the broken bride as she walks back into Spring as a spy.`,
+    characters: [
+      {
+        name: 'Feyre Archeron',
+        role: 'High Lady of the Night Court',
+        description: `Remade High Fae with a drop of every High Lord's power — darkness, water, flame, ice, light, shapeshifting, healing. This book is her climb out of the abyss: learning to read, to fight, to want things again. She ends it as the first High Lady in Prythian's history — a title Rhysand insists on, because she is his equal or nothing.`,
+      },
+      {
+        name: 'Rhysand',
+        role: 'High Lord of the Night Court',
+        description: `The mask comes off. The cruel monster of Book I is revealed as a male who spent forty-nine years enduring Amarantha to protect his hidden city, who sold his reputation to save everyone else's lives — including Feyre's, over and over, in ways she never saw. He knew she was his mate the moment the bond snapped for him — and said nothing, wanting her to choose. Half-Illyrian, all wings and starlight and terrible patience. This book is why he becomes so many readers' favorite.`,
+      },
+      {
+        name: 'Mor',
+        role: 'The Morrigan',
+        description: `Rhysand's cousin, golden and laughing and steel underneath. She survived a horrific betrothal and her own family of the Court of Nightmares, and chose joy anyway. Her gift is truth itself — she can feel lies.`,
+      },
+      {
+        name: 'Cassian',
+        role: 'General of the Night Court\'s Armies',
+        description: `A bastard-born Illyrian warrior who fought his way to command with seven Siphons and zero subtlety. Loud, loyal, big-hearted — and instantly, catastrophically fascinated by Nesta Archeron. His promise to her on the battlefield of Hybern will break your heart.`,
+      },
+      {
+        name: 'Azriel',
+        role: 'Spymaster · Shadowsinger',
+        description: `Quiet, scarred, and patient, with shadows that curl around him like living things and a legendary blade named Truth-Teller. Kept in darkness as a child; became the thing darkness answers to. He watches everything — especially the people he loves.`,
+      },
+      {
+        name: 'Amren',
+        role: 'The Second in Command',
+        description: `A being older than Prythian, poured into Fae form, with a taste for blood and jewels and no patience whatsoever. Even High Lords are careful around her. She translates the Book of Breathings — and the Book whispers back.`,
+      },
+      {
+        name: 'Nesta Archeron',
+        role: 'The Eldest Sister',
+        description: `Dragged to Hybern and forced under the Cauldron's black water, Nesta doesn't just survive being remade: she takes something from the Cauldron on her way out. When she emerges, even the King is afraid.`,
+      },
+      {
+        name: 'Elain Archeron',
+        role: 'The Middle Sister',
+        description: `Gentle Elain, engaged to a lord's son sworn to destroy faeries, is stolen and remade against her will. She goes into the Cauldron a bride-to-be and comes out something no one yet understands.`,
+      },
+      {
+        name: 'Tamlin',
+        role: 'High Lord of Spring',
+        description: `He tore apart the world to get Feyre back — and then boarded up the windows. His fear becomes control, his control becomes a cage, and his desperation drives him into a bargain with Hybern that costs him everything he meant to protect.`,
+      },
+      {
+        name: 'Lucien Vanserra',
+        role: 'Emissary of Spring',
+        description: `He sees what's happening to Feyre and fails to act until it's nearly too late. In Hybern, staring at a newly Made Elain, the word that leaves his lips changes his life: mate.`,
+      },
+      {
+        name: 'The King of Hybern',
+        role: 'The King',
+        description: `Amarantha was merely his general. The King wants the wall shattered, the humans re-enslaved, and the world as it was before the Treaty. In his castle, the series' cruelest trap is sprung.`,
+      },
+      {
+        name: 'Ianthe',
+        role: 'High Priestess',
+        description: `Serene, silver-tongued, and rotten to the core, she attaches herself to Tamlin's court and sells the Archeron sisters to Hybern. Proof that the prettiest masks in Prythian aren't magical at all.`,
+      },
+    ],
+  },
+  3: {
+    summary: `Feyre plays her part in the Spring Court to perfection: the traumatized bride rescued from the wicked Night Court. Under that mask she unravels Tamlin's rule thread by thread — turning his sentries, exposing Ianthe, sowing doubt like salt — and when she finally winnows home to Velaris with Lucien at her side, Spring is already collapsing behind her.
+
+Then the real work begins: uniting seven High Lords who hate each other against the King of Hybern. The meeting of the High Lords is politics as blood sport — old wounds, old betrayals, and Feyre wearing her title like a crown of stars. Allies arrive from the strangest places: Seraphim legions, a firebird queen, Miryam and Drakon's people, Bryaxis (the literal darkness under the House of Wind), the Bone Carver bargained out of his Prison, and — at the last, unlooked for — Tamlin.
+
+Nesta, bonded uneasily to the Cauldron she was Made in, can feel it like a wound in the world. Elain, sleepwalking through her new immortality, turns out not to be broken at all: she is a seer. The final battle costs almost everything — Amren unbound into her true form, the Suriel's last kindness, Rhysand's heart stopping on the field until every High Lord kneels to give back what was once given to Feyre. And the Archeron sisters end it together: their father dead defending them, Elain's blade in the King's neck, Nesta's hands finishing what the Cauldron started.
+
+The wall falls anyway. The world is remade anyway. But Velaris still stands, and the family that fought for it is — barely, gloriously — alive.`,
+    characters: [
+      {
+        name: 'Feyre Archeron',
+        role: 'High Lady of the Night Court',
+        description: `She begins the book as a weapon aimed at the Spring Court and ends it holding her dying mate on a battlefield, bargaining with every High Lord alive. Her arc completes: the starving girl from the cottage now stands as an equal among the rulers of the world.`,
+      },
+      {
+        name: 'Rhysand',
+        role: 'High Lord of the Night Court',
+        description: `The war is his chessboard and his nightmare: every alliance, every gambit, every secret weighed against the city he loves. At the end he gives everything — holding the broken wall's power until his own heart gives out. Death keeps him only minutes. Seven courts owe Feyre a debt, and she collects. When he wakes, the first thing he does is joke. Of course he does.`,
+      },
+      {
+        name: 'Nesta Archeron',
+        role: 'The Blade the Cauldron Made',
+        description: `She can sense the Cauldron across the world, track it, wound it. Hybern fears her more than any army. At her father's death she becomes vengeance itself — and Cassian's whispered vow to her under the killing sky plants the seed of Book V.`,
+      },
+      {
+        name: 'Elain Archeron',
+        role: 'The Seer',
+        description: `Everyone thinks the Cauldron broke her. Instead it gave her visions — truths murmured into teacups that no one deciphers until Azriel listens. Kidnapped by Hybern, rescued by shadows, she ends the war with Truth-Teller in her hand.`,
+      },
+      {
+        name: 'Cassian',
+        role: 'General of the Night Court',
+        description: `He leads Illyrian legions against an enemy that shreds wings for sport. Broken and grounded before the King of Hybern, he still drags himself in front of Nesta and promises: they'll find a way — together, or not at all.`,
+      },
+      {
+        name: 'Azriel',
+        role: 'Shadowsinger',
+        description: `He flies into the heart of Hybern's camp to bring Elain home, hands her his most treasured blade, and nearly dies holding the line. His shadows keep his own secrets best of all.`,
+      },
+      {
+        name: 'Mor',
+        role: 'The Morrigan',
+        description: `Facing Eris across a war table and her father across a battlefield, Mor's past claws its way into the open. She entrusts Feyre with a truth she has guarded for five centuries — who she is allowed to love — and chooses her own becoming.`,
+      },
+      {
+        name: 'Amren',
+        role: 'The Unleashed',
+        description: `To break Hybern's army she steps into the Cauldron and unmakes her prison of flesh — becoming, for one apocalyptic moment, the being of pure light and wrath she was before this world. The Cauldron gives her back small, Fae, and mortal-ish. She grumbles about it forever.`,
+      },
+      {
+        name: 'Lucien Vanserra',
+        role: 'The Wanderer',
+        description: `He walks away from Spring with Feyre and crosses a continent hunting Vassa, the firebird queen, for the human alliance. Along the way, the mystery of his birth begins to smolder: those russet eyes look very like the High Lord of Day's.`,
+      },
+      {
+        name: 'Tamlin',
+        role: 'High Lord of Spring',
+        description: `Played, exposed, and abandoned, Tamlin sells himself to Hybern as a double agent — and no one is sure which side of the knife he's on until the end. It is Tamlin's hands that help drag Rhysand back from death. Be happy, Feyre, he says, and walks back to his empty manor.`,
+      },
+      {
+        name: 'Eris Vanserra',
+        role: 'The Heir of Autumn',
+        description: `Lucien's eldest brother, Mor's betrayer — or so the story went. Eris deals himself into the war with information and ambition, and hints that nothing about his worst moments was what it seemed. Every reader's most reluctantly interesting male.`,
+      },
+      {
+        name: 'Vassa',
+        role: 'The Firebird Queen',
+        description: `Sold by her fellow mortal queens to a death-lord called Koschei and cursed to burn as a firebird by day, Vassa claws out a loan of freedom to fight for the human lands — loud, fearless, and impossible not to love.`,
+      },
+      {
+        name: 'Miryam & Drakon',
+        role: 'The Legends',
+        description: `A once-enslaved human woman and the Seraphim prince who chose her — heroes of the last war, hidden for centuries, arriving at the darkest hour with an island's worth of loyalty behind them.`,
+      },
+      {
+        name: 'Mr. Archeron',
+        role: 'The Father',
+        description: `The father who failed his daughters for years spends his fortune and his final months raising ships from every free harbor. He dies on the battlefield in Nesta's arms, having called her his little wolf — and his death is the spark that ends the King.`,
+      },
+      {
+        name: 'The King of Hybern',
+        role: 'The King',
+        description: `Patient, brilliant, and utterly without mercy, he nearly wins. He forgets only one thing: he Made two sisters in his Cauldron, and what is Made can unmake him. Elain's blade, Nesta's hands.`,
+      },
+      {
+        name: 'Bryaxis & The Bone Carver',
+        role: 'The Monsters Who Help',
+        description: `Feyre's strangest recruits: the nameless terror beneath the library, bargained into service with a promise of windows — and the Bone Carver, who marches from the Prison and falls in battle, finally free.`,
+      },
+    ],
+  },
+  4: {
+    summary: `Months after the war, Velaris glitters with Solstice lights — and underneath them, everyone is patching themselves back together. Feyre, now painting again, pours herself into rebuilding the city and quietly teaching art to children orphaned and scarred by the attack. Rhysand shuttles between courts and Illyrian war-camps, where resentment among the winged legions smolders.
+
+The novella is a string of small, warm, aching moments: shopping for presents in the Palace of Thread and Jewels; snowball wars in the mountains that the Illyrians treat like sacred combat; Elain finding herself again in gardens and kitchens; Amren adjusting, loudly, to a body that now requires actual food. It's also honest about who isn't healing — Nesta, drinking her grief alone at the edge of the city, refusing every hand extended to her, and Tamlin, feral and alone in a ruined manor, visited by a Rhysand who owes him a life and delivers, instead of comfort, the truth.
+
+It ends with gifts: a studio of Feyre's own on a street being rebuilt, plans whispered between mates about a future — a family — worth dreaming of, and one last snowy image of a city that survived. A breath between wars. The calm before Nesta's storm.`,
+    characters: [
+      {
+        name: 'Feyre Archeron',
+        role: 'High Lady of the Night Court',
+        description: `Her Solstice birthday makes her the center of the season. She buys her first gifts with her own earnings, paints the war out of her hands, and starts an art class for Velaris's orphaned children — turning her old survival skill into someone else's healing.`,
+      },
+      {
+        name: 'Rhysand',
+        role: 'High Lord of the Night Court',
+        description: `Between Illyrian politics and court visits, Rhys is at his most domestic — terrible at hiding presents, excellent at loving his mate. His gift to Feyre: an estate to become a home big enough for the family they dream aloud about, and a studio of her own. His hardest scene is quieter: standing in the ruins of the Spring Court, telling Tamlin to fight for something worth living for.`,
+      },
+      {
+        name: 'Nesta Archeron',
+        role: 'The Sister at the Edge',
+        description: `She takes an apartment in the city's roughest quarter, drinks to stop dreaming of her father's death, and attends Solstice dinner like a hostage. Every kindness offered feels like an accusation. Her chapters ache — and set the stage for her own book.`,
+      },
+      {
+        name: 'Cassian',
+        role: 'General of the Night Court',
+        description: `Wrangling rebellious Illyrian camps by day, orbiting Nesta by night — showing up, being turned away, showing up again. He leaves a present outside a door that never opens. He doesn't stop.`,
+      },
+      {
+        name: 'Elain Archeron',
+        role: 'The Gardener',
+        description: `Of the two Made sisters, Elain seems to be finding her footing — baking, planting, laughing again. But her mate bond with Lucien sits untouched in the corner of every room, and her visions have gone quiet... or unspoken.`,
+      },
+      {
+        name: 'Azriel',
+        role: 'Shadowsinger',
+        description: `Solstice Azriel is the softest we ever see him — scheming in snowball fights he takes far too seriously, giving quiet, perfect gifts. His shadows still vanish around one particular sister.`,
+      },
+      {
+        name: 'Mor',
+        role: 'The Morrigan',
+        description: `Radiant at every party and restless underneath, Mor accepts a post as ambassador to the human realms and to Vassa's court — the first step in a life finally chosen for herself.`,
+      },
+      {
+        name: 'Amren',
+        role: 'The Formerly Terrifying',
+        description: `Being mostly-Fae now means sleeping, eating, and enduring the indignity of feelings. She hates all of it, adores Varian, and remains the only person who can out-glare Nesta.`,
+      },
+      {
+        name: 'Lucien Vanserra',
+        role: 'The Wanderer Between Worlds',
+        description: `Splitting his time between Velaris, the human lands with Vassa and Jurian, and a mate who cannot look at him. He gives Elain a Solstice gift; the silence that follows says everything about the road ahead.`,
+      },
+      {
+        name: 'Tamlin',
+        role: 'High Lord of Spring',
+        description: `Alone in a court of shattered windows and departed servants, mostly living as the beast. Rhysand's Solstice visit — part debt, part mercy, part cruelty — is one of the series' most haunting scenes.`,
+      },
+    ],
+  },
+  5: {
+    summary: `The Inner Circle stages an intervention: Nesta can move into the House of Wind, train with Cassian, and work in the library — or go back to the human lands. Furious and cornered, she chooses the House, planning to give them nothing. Instead the House itself befriends her (novels and hot cocoa appearing out of thin air), and against every intention, Nesta begins to climb — the ten thousand steps, the training ring at dawn, the slow rebuilding of a self she believed unworthy of saving.
+
+In the library she finds Gwyn, a priestess with a copper braid and a past full of teeth; in the training ring, Emerie, an Illyrian shopkeeper whose father clipped her wings. Together they resurrect the ancient tradition of the Valkyries — mind-stilling, ribbon-cutting, oath-swearing — and enter the Blood Rite, an Illyrian death-trial no female has ever survived, let alone won.
+
+Beyond the mountains, the human queen Briallyn, twisted by the Cauldron and bound to the ancient death-lord Koschei, hunts the Dread Trove — Made objects of terrible power: the Mask that raises the dead, the Harp that unlocks anything, the Crown that bends minds. Only Nesta, Cauldron-Made herself, can find them. Each retrieval costs her another piece of armor around her heart, and her firestorm of a bond with Cassian burns from hatred to hunger to something neither can outrun: they are mates, and both have known it for a long time.
+
+The end is Nesta's masterpiece. Learning that the wall of power inside her sister could kill Feyre in childbirth, told the truth by no one and forced to deliver it cruelly, Nesta walks into her own reckoning: she takes on the Blood Rite, wins Ramiel's summit with her sisters-in-arms, and — when Feyre and the baby lie dying — pours nearly all her stolen Cauldron-power back out to save them both. She keeps only a spark. It's enough. She was always enough.`,
+    characters: [
+      {
+        name: 'Nesta Archeron',
+        role: 'The Heroine',
+        description: `The sister everyone called cold gets the series' rawest, most hard-won arc: self-loathing, grief, and rage transmuted step by step into strength, sisterhood, and love. She Makes new legends — literally, forging Made blades and a crown of her own choosing. Her final act — giving back her power to save Feyre and Nyx — is not a loss. It is the proof of everything she became.`,
+      },
+      {
+        name: 'Cassian',
+        role: 'The Lord of Bloodshed',
+        description: `Five hundred years old and still the boy who built a family out of nothing, Cassian meets Nesta blow for blow in the training ring and refuses to flinch from her sharpest edges. His love is patient, physical, and stubborn as a mountain. The mating bond he's carried silently since the war finally gets its answer — in the Rite, on Ramiel, with the whole of Illyria watching.`,
+      },
+      {
+        name: 'Gwyn Berdara',
+        role: 'Valkyrie · Priestess of the Library',
+        description: `A priestess who survived the atrocity at Sangravah and rebuilt herself in the library's quiet, Gwyn is bright, curious, and braver than she believes. She becomes the first to master mind-stilling, carries Azriel's borrowed knife, and leaves readers with one shimmering question about what she truly is — lightsinger?`,
+      },
+      {
+        name: 'Emerie',
+        role: 'Valkyrie · Shopkeeper of Windhaven',
+        description: `An Illyrian female running her late father's shop in a camp that despises her independence. Dry-witted and iron-spined, she trains in secret, stands in the Rite beside her sisters, and catches the eye of a certain golden-haired Morrigan.`,
+      },
+      {
+        name: 'Feyre Archeron',
+        role: 'High Lady of the Night Court',
+        description: `Radiantly pregnant with a winged son — and unknowingly carrying a death sentence her mate concealed. The sisters' confrontation over that secret, and their reconciliation at the book's end, is the emotional keystone of the Archeron story.`,
+      },
+      {
+        name: 'Rhysand',
+        role: 'High Lord of the Night Court',
+        description: `Seen through Nesta's flinty eyes, Rhys is colder here — a High Lord who threatens the sister who hurt his mate, and a male making an unforgivable choice out of terror: hiding the danger of the birth from Feyre herself. His joy at Nyx's arrival, and his debt to Nesta, reshape their uneasy bond.`,
+      },
+      {
+        name: 'Azriel',
+        role: 'Shadowsinger',
+        description: `Training the Valkyries by day, wrestling a private storm by night. His infamous bonus-chapter Solstice — a near-kiss with Elain, a rebuke from Rhys, a headache soothed by Gwyn's laughter — lights the fuse of the series' next great love triangle.`,
+      },
+      {
+        name: 'Elain Archeron',
+        role: 'The Seer',
+        description: `Offered a place in the Trove-hunt and shut down by her family's protectiveness, Elain's quiet frustration simmers through the book. She wants to be asked. She wants to choose. Her story is still coming.`,
+      },
+      {
+        name: 'Eris Vanserra',
+        role: 'The Heir of Autumn',
+        description: `Allied with the Night Court against his own father, Eris trades secrets, requests Nesta as a dance partner, and gets captured by Briallyn for his trouble. Every scene deepens the suspicion that his cruelty is armor over something else entirely.`,
+      },
+      {
+        name: 'The House of Wind',
+        role: 'The House Itself',
+        description: `Ten thousand steps of mountain-carved stone that comes alive for Nesta — sending her romance novels, lighting her darkness, hiding her from what hunts her. The series' most beloved non-person, and Nesta's first true friend in Velaris.`,
+      },
+      {
+        name: 'Briallyn',
+        role: 'The Twisted Queen',
+        description: `The mortal queen the Cauldron withered instead of renewed, hungry for the Trove to restore her youth and enslave the Illyrians. A pawn who believes she's a player — because the hand moving her belongs to Koschei.`,
+      },
+      {
+        name: 'Koschei',
+        role: 'The Death-God on the Lake',
+        description: `Ancient beyond the High Lords, brother-in-kind to the Bone Carver and the Weaver, chained to his lake by a trick and patiently spinning webs across centuries: Vassa's curse, Briallyn's leash, Jurian's old torment. The shadow over every book still to come.`,
+      },
+      {
+        name: 'Nyx',
+        role: 'The Newest Star',
+        description: `Feyre and Rhysand's blue-eyed, black-winged boy, born on the knife's edge of tragedy and delivered into a family that fought worlds for him. His aunt gave up near-godhood so he could live. The future of the Night Court, asleep in his mother's arms.`,
+      },
+    ],
+  },
+}

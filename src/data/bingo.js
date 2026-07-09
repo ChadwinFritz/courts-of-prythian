@@ -1,0 +1,30 @@
+// src/data/bingo.js
+// 24 squares total. When rendered in a 5×5 grid, grid position 12 is the FREE center square.
+// The component inserts the FREE square at grid index 12; squares[0–11] fill positions 0–11,
+// squares[12–23] fill grid positions 13–24.
+export const squares = [
+  "Cried at the Suriel. Again.",
+  "Yelled 'JUST TALK TO EACH OTHER' at the book",
+  "Spotted the painted drawers foreshadowing",
+  "Glared at Tamlin on principle",
+  "Reread Chapter 55 'for context'",
+  "Caught a Rhys line that hits different on reread",
+  "Wanted to fight Ianthe barehanded",
+  "Teared up at 'There you are'",
+  "Needed a break after the Cauldron scene",
+  "Laughed out loud at Cassian",
+  "Said 'the House is my favorite character'",
+  "Counted the times Rhys saved Feyre UTM",
+  "Whispered 'to the stars who listen'",
+  "Swore loyalty to the Valkyries",
+  "Noticed new Elain foreshadowing",
+  "Defended Nesta in your head to no one",
+  "Got chills at the Bone Carver = Nyx theory",
+  "Missed sleep because 'one more chapter'",
+  "Picked a side in the ship war (again)",
+  "Craved soup during a Suriel scene",
+  "Air-punched at the Blood Rite summit",
+  "Sobbed at the father's last words",
+  "Squinted suspiciously at Eris",
+  "Planned who you'll make read these books",
+]
