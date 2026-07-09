@@ -34,8 +34,10 @@ import { computed } from 'vue'
 import HeroSection from '../components/HeroSection.vue'
 import { useBingoStore } from '../stores/bingo'
 import { squares } from '../data/bingo'
+import { useToast } from '../composables/useToast'
 
 const bingo = useBingoStore()
+const { say } = useToast()
 
 // Build grid: 25 slots, center (index 12) is FREE
 // Grid positions 0–11  → squares[0]–squares[11]
@@ -67,7 +69,9 @@ function shareCard() {
     rows.push(row.join(' '))
   }
   const text = 'ACOTAR Reread Bingo\n' + rows.join('\n')
-  navigator.clipboard.writeText(text).catch(() => {})
+  navigator.clipboard.writeText(text).catch(() => {
+    say('Could not copy — your browser requires a secure page for clipboard access.')
+  })
 }
 </script>
 

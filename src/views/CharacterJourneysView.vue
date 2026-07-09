@@ -27,7 +27,7 @@
           :class="{ big: m.big }"
         >
           <span class="bk">{{ m.book }}</span>
-          <p v-html="m.text" />
+          <p>{{ m.text }}</p>
         </div>
       </div>
     </div>

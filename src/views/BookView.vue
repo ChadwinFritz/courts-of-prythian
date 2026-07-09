@@ -81,7 +81,7 @@ function onConstellationClick() {
 onMounted(() => {
   stagger('.card', { delay: 0.3 })
   // Attach constellation click handler after mount
-  const con = document.querySelector('.hero-constellation')
+  const con = document.querySelector('.constellation-web')
   if (con) con.addEventListener('click', onConstellationClick)
 })
 </script>

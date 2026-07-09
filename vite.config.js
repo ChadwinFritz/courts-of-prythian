@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue'
 import { webfontDownload } from 'vite-plugin-webfont-dl'
 
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/courts-of-prythian/' : '/',
+  base: process.env.VITE_OFFLINE === '1' ? './' : (process.env.NODE_ENV === 'production' ? '/courts-of-prythian/' : '/'),
   plugins: [
     vue(),
     webfontDownload([

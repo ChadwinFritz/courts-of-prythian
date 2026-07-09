@@ -118,10 +118,13 @@ section > h2 { font-size: 1.9rem; margin: 0.3rem 0 0.4rem; }
 @media (prefers-reduced-motion: no-preference) {
   .door:hover { transform: translateY(-5px); box-shadow: var(--shadow-hover); border-color: var(--amethyst); }
 }
-.door.special { border-color: rgba(201,148,58,.55); animation: aurora 4s ease-in-out infinite; }
-@keyframes aurora {
-  0%,100% { box-shadow: 0 0 30px rgba(201,148,58,.1), var(--shadow-card); }
-  50%      { box-shadow: 0 0 52px rgba(201,148,58,.26), 0 0 90px rgba(180,142,240,.16), var(--shadow-card); }
+.door.special { border-color: rgba(201,148,58,.55); }
+@media (prefers-reduced-motion: no-preference) {
+  .door.special { animation: aurora 4s ease-in-out infinite; }
+  @keyframes aurora {
+    0%,100% { box-shadow: 0 0 30px rgba(201,148,58,.1), var(--shadow-card); }
+    50%      { box-shadow: 0 0 52px rgba(201,148,58,.26), 0 0 90px rgba(180,142,240,.16), var(--shadow-card); }
+  }
 }
 .k  { font-family: var(--font-display); font-size: 0.6rem; letter-spacing: 0.26em; text-transform: uppercase; color: var(--amethyst); }
 .door h3 { font-size: 1.45rem; margin: 0.35rem 0 0.4rem; }

@@ -11,6 +11,7 @@ node_modules
 dist
 dist-ssr
 dist-offline
+dist-offline-build
 Courts-of-Prythian-Gift.zip
 *.local
 
