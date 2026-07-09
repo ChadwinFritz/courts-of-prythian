@@ -2,7 +2,7 @@
   <HeroSection
     title="Scenes of Prythian"
     eyebrow="The Gallery"
-    lead="Eleven settings and portraits from across the books — illustrated."
+    lead="Twelve settings and portraits from across the books — illustrated."
   />
 
   <main>

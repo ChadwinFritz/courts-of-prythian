@@ -77,4 +77,11 @@ export const scenes = [
     caption: `Two people who found each other in the dark and decided the dark was better together. She is the first High Lady; he waited five hundred years to stop being alone. The books call it a mating bond — but long before the bond, they chose each other first, which is the part that matters.`,
     image: 'feyre-rhys.png',
   },
+  {
+    id: 'prythian-map',
+    title: 'The Map of Prythian',
+    book: 'All Seven Courts · ACOTAR–ACOSF',
+    caption: `An illuminated cartographic record of the seven courts — each territory rendered in its own palette, each border gilded, each ruling sigil pressed into the parchment like a seal. The Night Court's stars are constellations. The Barrens stretch south. The Mothern watches from the east. The Sea of Storms does what it promises.`,
+    image: 'scene-prythian-map.png',
+  },
 ]
