@@ -244,62 +244,9 @@
         exactly how much these books mean to you. The characters said their part; this
         space is for the person who asked the stars to gather for you.
       </p>
-      <!-- Gift-giver: replace this paragraph with your own words -->
-      <p>
-        <em>
-          [Gift-giver: replace this paragraph with your own words — open this file in
-          any text editor, find this line, and write from the heart. Or delete this
-          whole note and let the letter above say it all.]
-        </em>
-      </p>
       <div class="letter-sig">
         With love, from your side of the wall
         <small>The one who knows you'd choose the Night Court</small>
-      </div>
-    </section>
-
-    <!-- Wall of Light -->
-    <section class="messages">
-      <span class="eyebrow centered">The Wall of Light</span>
-      <h2 class="centered">From this side of the wall</h2>
-      <p class="centered sub">Real voices, real love — messages from people who love you.</p>
-      <p class="centered sub-sm">
-        [Gift-giver: replace the names and messages below with real notes from friends &amp; family.]
-      </p>
-
-      <div class="mgrid">
-        <div class="note wall-card" style="border-left-color: var(--burnished)">
-          <div class="who">A Light From…</div>
-          <p>
-            "Write your friend or family member's message here — a memory, a wish, an
-            inside joke, anything true."
-          </p>
-          <div class="sign">— Their name</div>
-        </div>
-
-        <div class="note wall-card" style="border-left-color: var(--amethyst)">
-          <div class="who">A Light From…</div>
-          <p>"Second message goes here."</p>
-          <div class="sign">— Their name</div>
-        </div>
-
-        <div class="note wall-card" style="border-left-color: var(--mist)">
-          <div class="who">A Light From…</div>
-          <p>"Third message goes here."</p>
-          <div class="sign">— Their name</div>
-        </div>
-
-        <div class="note wall-card" style="border-left-color: var(--amethyst)">
-          <div class="who">A Light From…</div>
-          <p>"Fourth message goes here."</p>
-          <div class="sign">— Their name</div>
-        </div>
-
-        <div class="note wall-card" style="border-left-color: var(--burnished)">
-          <div class="who">A Light From…</div>
-          <p>"Fifth message goes here — add or delete cards freely."</p>
-          <div class="sign">— Their name</div>
-        </div>
       </div>
     </section>
 
