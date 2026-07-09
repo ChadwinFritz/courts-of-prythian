@@ -4,6 +4,7 @@ export const characters = [
     name: 'Feyre Archeron',
     tag: 'Huntress → Cursebreaker → High Lady',
     arc: 'The girl who taught herself to survive learns the harder skill: how to live — and finds she was never meant to bow to anyone.',
+    image: 'char-feyre.png',
     emblemLabel: "Feyre's emblem: a paintbrush among stars",
     milestones: [
       {
@@ -37,6 +38,7 @@ export const characters = [
     name: 'Rhysand',
     tag: 'The villain → the dreamer → the father',
     arc: 'The most feared High Lord in Prythian spends five books proving that the fearsome reputation was the price of protecting everything soft in the world.',
+    image: 'char-rhysand.png',
     emblemLabel: "Rhysand's emblem: wings beneath a star",
     milestones: [
       {
@@ -70,6 +72,7 @@ export const characters = [
     name: 'Nesta Archeron',
     tag: 'The blade turned inward → the Valkyrie',
     arc: 'The series\' hardest, most honest arc: rage as armor, grief as poison, and the ten-thousand-step climb back to believing she deserves to be loved.',
+    image: 'char-nesta.png',
     emblemLabel: "Nesta's emblem: a silver flame",
     milestones: [
       {
@@ -103,6 +106,7 @@ export const characters = [
     name: 'Cassian',
     tag: 'Bastard-born → General → Mate',
     arc: 'The boy thrown away by Illyria builds a family from scratch and never stops fighting for the people inside it — even the one who fights him hardest.',
+    image: 'char-cassian.png',
     emblemLabel: "Cassian's emblem: a red siphon",
     milestones: [
       {
@@ -131,6 +135,7 @@ export const characters = [
     name: 'Elain Archeron',
     tag: 'The gentle one → the seer → the storm still coming',
     arc: 'Everyone mistakes softness for weakness. Elain\'s quiet journey keeps proving them wrong — one vision, one blade, one unspoken choice at a time.',
+    image: 'char-elain.png',
     emblemLabel: "Elain's emblem: a blooming flower",
     milestones: [
       {
@@ -164,6 +169,7 @@ export const characters = [
     name: 'Azriel',
     tag: 'The boy in the dark → the shadowsinger',
     arc: 'Kept in darkness as a child, he made the darkness his. The quietest member of the family carries the loudest heart — and guards it hardest.',
+    image: 'char-azriel.png',
     emblemLabel: "Azriel's emblem: a dagger wrapped in shadow",
     milestones: [
       {
@@ -192,6 +198,7 @@ export const characters = [
     name: 'Lucien Vanserra',
     tag: 'Exile → emissary → a court of his own making',
     arc: 'Thrown out of Autumn, outgrowing Spring, never quite at home in Night — Lucien keeps losing courts and gaining a self.',
+    image: 'char-lucien.png',
     emblemLabel: "Lucien's emblem: a fox eye",
     milestones: [
       {
@@ -220,6 +227,7 @@ export const characters = [
     name: 'Mor & Amren',
     tag: 'Truth chosen · power surrendered',
     arc: 'Two females who refuse every definition handed to them — one outrunning a monstrous family, one outliving a monstrous form.',
+    image: 'char-mor.png',
     emblemLabel: "Emblem for Mor and Amren: a sun and a gem",
     milestones: [
       {

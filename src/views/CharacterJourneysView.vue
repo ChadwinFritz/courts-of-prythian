@@ -13,8 +13,16 @@
       class="journey"
     >
       <div class="jhead">
-        <h2>{{ char.name }}</h2>
-        <div class="tag">{{ char.tag }}</div>
+        <img
+          v-if="char.image"
+          :src="`${base}images/${char.image}`"
+          :alt="char.name"
+          class="portrait"
+        />
+        <div class="jhead-text">
+          <h2>{{ char.name }}</h2>
+          <div class="tag">{{ char.tag }}</div>
+        </div>
       </div>
 
       <p class="arc">{{ char.arc }}</p>
@@ -40,6 +48,8 @@ import HeroSection from '../components/HeroSection.vue'
 import { characters } from '../data/characters'
 import { useGsap } from '../composables/useGsap'
 
+const base = import.meta.env.BASE_URL
+
 const { stagger, fadeUp } = useGsap()
 
 onMounted(() => {
@@ -64,10 +74,24 @@ main {
 
 .jhead {
   display: flex;
-  align-items: baseline;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-bottom: 0.7rem;
+  align-items: center;
+  gap: 1.4rem;
+  margin-bottom: 0.9rem;
+}
+
+.portrait {
+  width: 72px;
+  height: 96px;
+  object-fit: cover;
+  object-position: top;
+  border: 1px solid rgba(180, 142, 240, 0.3);
+  flex-shrink: 0;
+}
+
+.jhead-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
 }
 
 .jhead h2 {
