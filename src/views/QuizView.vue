@@ -189,12 +189,12 @@ main {
 }
 
 .opt.correct {
-  border-color: #6dbf7e;
+  border-color: var(--correct);
   background: rgba(109, 191, 126, 0.12);
 }
 
 .opt.wrong {
-  border-color: #c06060;
+  border-color: var(--wrong);
   background: rgba(192, 96, 96, 0.12);
 }
 

@@ -338,12 +338,12 @@ main {
 }
 
 .guess-result.correct {
-  color: #6dbf7e;
+  color: var(--correct);
   background: rgba(109, 191, 126, 0.12);
 }
 
 .guess-result.wrong {
-  color: #c06060;
+  color: var(--wrong);
   background: rgba(192, 96, 96, 0.12);
 }
 

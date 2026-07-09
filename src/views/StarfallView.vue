@@ -332,7 +332,7 @@
   padding: 6rem 1.5rem 5rem;
   text-align: center;
   overflow: hidden;
-  background: radial-gradient(ellipse at 50% -30%, #2c2a63 0%, #0d1020 65%);
+  background: radial-gradient(ellipse at 50% -30%, var(--night-deep) 0%, var(--stone) 65%);
   min-height: 50vh;
   display: flex;
   flex-direction: column;
@@ -347,7 +347,7 @@
 }
 
 .st {
-  fill: #fff;
+  fill: var(--moonwhite);
 }
 
 @media (prefers-reduced-motion: no-preference) {

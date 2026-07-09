@@ -14,6 +14,9 @@
   --moonwhite: #f0ede4;
   --mist:      #9097b8;
   --ember:     #d4602e;
+  --correct:   #6dbf7e;
+  --wrong:     #c06060;
+  --night-deep: #2c2a63;
 
   /* Court vars — overridden per BookView */
   --court-accent: var(--amethyst);
