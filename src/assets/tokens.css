@@ -1,0 +1,105 @@
+/* src/assets/tokens.css
+ * Starter tokens — replaced by Creative Director agent output (Task 0).
+ * Every CSS custom property the app uses must be declared here.
+ */
+
+/* Google Fonts imported at build time by vite-plugin-webfont-dl */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+:root {
+  /* Palette — Candlelight on Dark Stone */
+  --stone:     #0f0b18;
+  --amethyst:  #b48ef0;
+  --burnished: #c9943a;
+  --moonwhite: #f0ede4;
+  --mist:      #9097b8;
+  --ember:     #d4602e;
+
+  /* Court vars — overridden per BookView */
+  --court-accent: var(--amethyst);
+  --court-gold:   var(--burnished);
+  --court-bg:     var(--stone);
+
+  /* Typography */
+  --font-display: 'Cinzel', serif;
+  --font-body:    'EB Garamond', Georgia, serif;
+  --text-xs:   0.62rem;
+  --text-sm:   0.88rem;
+  --text-base: 1.05rem;
+  --text-lg:   1.2rem;
+  --text-xl:   1.5rem;
+  --text-2xl:  2rem;
+  --text-3xl:  clamp(2.2rem, 6vw, 3.8rem);
+  --text-hero: clamp(2.4rem, 7vw, 4.4rem);
+  --leading:   1.65;
+
+  /* Spacing */
+  --space-xs:  0.5rem;
+  --space-sm:  1rem;
+  --space-md:  2rem;
+  --space-lg:  4rem;
+  --space-xl:  6rem;
+
+  /* Depth */
+  --shadow-card:  0 4px 20px rgba(0,0,0,.45);
+  --shadow-hover: 0 18px 52px rgba(0,0,0,.65), 0 0 0 1px rgba(180,142,240,.38);
+  --shadow-gold:  0 0 36px rgba(201,148,58,.22);
+  --shadow-glow:  0 0 28px rgba(180,142,240,.3);
+
+  /* Animation */
+  --dur-fast: 150ms;
+  --dur-mid:  220ms;
+  --dur-slow: 400ms;
+  --ease-out: cubic-bezier(0.22, 0.68, 0, 1.18);
+
+  /* Z-index scale */
+  --z-nav:      100;
+  --z-progress: 101;
+  --z-toast:    200;
+  --z-burst:    201;
+}
+
+/* Reset */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+body {
+  background:              var(--stone);
+  color:                   var(--moonwhite);
+  font-family:             var(--font-body);
+  font-size:               var(--text-base);
+  line-height:             var(--leading);
+  -webkit-font-smoothing:  antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x:              hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  color:       var(--moonwhite);
+}
+
+a { color: inherit; text-decoration: none; }
+
+button { font-family: inherit; cursor: pointer; }
+
+img { max-width: 100%; display: block; }
+
+/* Focus */
+*:focus-visible {
+  outline:        2px solid var(--burnished);
+  outline-offset: 3px;
+  border-radius:  3px;
+}
+
+/* Eyebrow utility */
+.eyebrow {
+  font-family:     var(--font-display);
+  font-size:       var(--text-xs);
+  letter-spacing:  0.32em;
+  text-transform:  uppercase;
+  color:           var(--burnished);
+}
